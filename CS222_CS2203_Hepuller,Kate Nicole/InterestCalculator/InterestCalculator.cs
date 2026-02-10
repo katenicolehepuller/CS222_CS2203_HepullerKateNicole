@@ -11,4 +11,4 @@ double time = double.Parse(Console.ReadLine());
 
 double simpleInterest = (principal * rate * time) / 100;
 
-Console.WriteLine("Simple Interest: " + simpleInterest.ToString("F2"));
+Console.WriteLine("Simple Interest: {0:F2}", simpleInterest);
